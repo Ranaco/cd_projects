@@ -1,0 +1,70 @@
+.contact-us-base {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 200px;
+  padding-top: 150px;
+  width: 100%;
+  align-items: center;
+}
+
+.contact-us-tile-base {
+  max-width: 82vw;
+  background-color: #003fdb;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  min-width: 200px;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.contact-us-title {
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+  line-height: 86px;
+}
+
+.contact-us-tile-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-us-tile-base > img {
+  max-width: 580px;
+  padding: 20px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.contact-btn-grp {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.contact-btn-grp :nth-child(1) {
+  width: 240px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: #a3dc2f;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  border: none;
+}
+
+.contact-btn-grp :nth-child(2) {
+  width: 240px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  border: none;
+}

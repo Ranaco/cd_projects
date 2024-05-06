@@ -1,0 +1,76 @@
+.plan-card-base {
+  max-width: calc(390px - 80px);
+  min-height: 1000px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 40px;
+}
+
+.plan-card-title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #a3dc2f;
+}
+
+.plan-card-price {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72.61px;
+}
+
+.plan-card-description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #65676c;
+  letter-spacing: 0.025em;
+}
+
+.plan-card-features-base {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.plan-card-features-base > span {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #65676c;
+}
+
+.plan-card-title.first {
+  color: black;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.sel-plan-btn.contact {
+  background-color: #a3dc2f;
+  border: none;
+}
+
+.sel-plan-btn {
+  border-radius: 30px;
+  width: 240px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  margin-right: auto;
+  background-color: white;
+  margin-left: auto;
+}
+
+.feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}

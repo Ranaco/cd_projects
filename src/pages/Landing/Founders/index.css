@@ -1,0 +1,70 @@
+.founder-base {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.founder-header {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+}
+
+.founder-header-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: center;
+}
+
+.founder-header-sub {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.founder-image-grp {
+  max-width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 60px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  gap: 40px;
+}
+
+.founder-image-grp > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.founder-image-grp > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.founder-image-grp img {
+  max-width: 520px;
+}
+
+.founder-image-grp > div > div :nth-child(1) {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.31px;
+}
+
+.founder-image-grp > div > div :nth-child(2) {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+  color: #65676c;
+}

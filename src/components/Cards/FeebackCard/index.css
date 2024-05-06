@@ -1,0 +1,54 @@
+.feedback-card-base {
+  max-width: calc(520px - 60px);
+  height: fit-content;
+  border-radius: 16px;
+  padding: 30px 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-card-base > span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #707070;
+  text-align: left;
+}
+
+.person-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 70px;
+  gap: 10px;
+}
+
+.person-detail > img {
+  max-height: 60px;
+  aspect-ratio: 1/1;
+}
+
+.person-detail > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.person-detail > div img {
+  max-height: 15px;
+  aspect-ratio: 1/1;
+}
+
+.star-span {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.person-name {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31.47px;
+  letter-spacing: -0.025em;
+}

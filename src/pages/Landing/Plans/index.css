@@ -4,6 +4,7 @@
   padding-top: 120px;
   align-items: center;
   padding-bottom: 120px;
+  gap: 20px;
   max-width: 100%;
   background-color: #F2F4F5;
 }

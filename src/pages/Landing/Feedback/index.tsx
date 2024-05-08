@@ -53,8 +53,7 @@ const Feedback: React.FC = () => {
       <span className="feedback-title">What our customers say</span>
       <span className="feedback-description">
         "Thank you for your trust in Crypt Land! We are grateful for your
-        feedback and are commit
-        ted to providing <br />
+        feedback and are commit ted to providing <br />
         the best [products/services offered]. Read what our clients have to say
         about their experience with us."
       </span>
